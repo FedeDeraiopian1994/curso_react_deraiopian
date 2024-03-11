@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import ItemsList from './ItemsList';
-import array from "./prducto.json";
+import array from "./producto.json";
 import {  useParams } from "react-router-dom";
 import {collection, addDoc, getFirestore, where, query, getDocs} from "firebase/firestore";
 
